@@ -1,0 +1,251 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+    <html xmlns="http://www.w3.org/1999/xhtml">
+
+    <head id="Head1" runat="server">
+        <title></title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        </script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" media="all">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet" media="all">
+        <link rel="Stylesheet" href="css/homecs.css" type="text/css" />
+        <style>
+            #map {
+                    height: 330px;
+                    width: 100%;
+                }
+        </style>
+     </head>
+
+    <body data-spy="scroll" data-target=".navbar" data-offset="50">
+        <form id="form1" runat="server">
+            <nav class="navbar navbar-default navbar-fixed-top">
+              <div class="container-fluid">
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                  <a class="navbar-brand" href="#Home">Company Name</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                  <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#Home">HOME</a></li>
+                    <li><a href="#Services">SERVICES</a></li>
+                    <li><a href="#Gallery">GALLERY</a></li>
+                    <li><a href="#Contact">CONTACT</a></li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+            <div id="Home" class="container anim-slide">
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                    </ol>
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner img-responsive">
+                        <div class="item active">
+                            <img src="img/webapp.jpg" alt="" style="width:100%;height: 720px;">
+                            <figcaption class="text-center">Web Application</figcaption>
+                        </div>
+                        <div class="item">
+                            <img src="img/index.jpg" alt="" style="width:100%;height: 720px;">
+                            <figcaption class="text-center">Mobile Application</figcaption>
+                        </div>
+                        <div class="item">
+                            <img src="img/architecture.jpg" alt="" style="width:100%;height: 720px">
+                            <figcaption class="text-center">United States</figcaption>
+                        </div>
+                    </div>
+
+                    <!-- Left and right controls -->
+                    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                      <span class="glyphicon glyphicon-chevron-left"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                      <span class="glyphicon glyphicon-chevron-right"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+            <!-- Container (Services Section) -->
+            <div id="Services">
+                <div class="jumbotron containery" style=" background-color:#f05f40; padding:40px; 0">
+                        <div class="row">
+                            <div class=".mx-auto text-center">
+                                    <h2 class="section-heading">Company Name</h2>
+                                    <center><hr></center>
+                                    <div class=" col-sm-2"></div>
+                                    <p class="col-sm-8 text-center text-faded mb-4">It is well established corporate IT Solutions and IT enabled service provider company in Pune, India.
+Company formed in the year 2017 by providing services to small as well as big corporate companies using our unmatched expertise and cutting edge technology.</p>
+                                    </div>
+                                    <p class=" col-sm-12 text-center"><a href="#!" target="_blank" class="btn btn-light btn-xl js-scroll-trigger">Learn More &raquo;</a></p>
+                            </div>
+                 </div>
+               </div>
+              <div class="container">
+                <div class="row" style=" padding:40px;">
+                      <div class="col-lg-12 text-center">
+                        <h2 class="section-heading">How We Work</h2>
+                        <center><hr class="my-4"></center>
+                      </div>
+                      <div class="col-lg-4 col-md-6 text-center">
+                        <div class="service-box mt-5 mx-auto">
+                          <i class="fa fa-4x fa-bell-o text-primary mb-3 sr-icons" data-sr-id="2" "></i>
+                          <h3 class="mb-3">Idea</h3>
+                          <p class="text-muted mb-0">Your idea is special and we love to listen them. We look at the idea and try to come up with best solutions.</p>
+                        </div>
+                      </div>
+                      <div class="col-lg-4 col-md-6 text-center">
+                        <div class="service-box mt-5 mx-auto">
+                          <i class="fa fa-4x fa-compress text-primary mb-3 sr-icons" data-sr-id="5""></i>
+                          <h3 class="mb-3">Design</h3>
+                          <p class="text-muted mb-0">Once we recieve the green signal from the client we go ahead and design the website.</p>
+                        </div>
+                      </div>
+                      <div class="col-lg-4 col-md-6 text-center">
+                        <div class="service-box mt-5 mx-auto">
+                          <i class="fa fa-4x fa-desktop text-primary mb-3 sr-icons" data-sr-id="4""></i>
+                          <h3 class="mb-3">Development</h3>
+                          <p class="text-muted mb-0">Finalised design goes under development and is perfectly developed to match the client�s expectation.</p>
+                        </div>
+                     </div>
+              </div>
+            </div>
+            <div id="Gallery" class="container-fluid gal">
+            <div class="container gallery-container">
+                <h1 class="text-center">Our Development</h1>
+                <center><hr class="my-4"></center>
+                <div class="tz-gallery">
+                    <div class="row mb-3">
+                        <div class="col-md-4">
+                            <div class="card">
+                                <a class="lightbox" href="img/Enterprise1.jpg">
+                                <img src="img/Enterprise1.jpg" alt="Park" class="card-img-top img-design w3-card">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <a class="lightbox" href="img/Enterprise2.jpg">
+                                <img src="img/Enterprise2.jpg" alt="Park" class="card-img-top img-design w3-card">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <a class="lightbox" href="img/Enterprise3.jpg">
+                                <img src="img/Enterprise3.jpg" alt="Park" class="card-img-top img-design w3-card">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                      <div class="row">
+                        <div class="col-md-4">
+                            <div class="card">
+                                <a class="lightbox" href="img/Enterprise4.jpg">
+                                <img src="img/Enterprise4.jpg" alt="Park" class="card-img-top img-design w3-card">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <a class="lightbox" href="img/Healthcare5.jpg">
+                                <img src="img/Healthcare5.jpg" alt="Park" class="card-img-top img-design w3-card">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <a class="lightbox" href="img/OnlineRetail6.jpg">
+                                <img src="img/OnlineRetail6.jpg" alt="Park" class="card-img-top img-design w3-card">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <!-- Container (Services Section) -->
+            <div id="Contact" class="container-fluid" style="background-color: #eaeaea; padding:25px 0;">
+                <div class="container contact">
+                      <h3 class="text-center">Contact</h3>
+                      <center><hr class="my-4"></center>
+                      <br />
+                      <div class="row test">
+                        <div class="col-md-4">
+                        <div class="w3-col m5">
+                              <p>Lets get in touch. Send me a message:</p>
+                              <p><i class="fa fa-map-marker w3-text-teal w3-xlarge"></i>&nbsp;&nbsp;Company Name, xyz, Pune</p>
+                              <p><i class="fa fa-phone w3-text-teal w3-xlarge"></i>&nbsp;&nbsp;Phone: +91 0000000000</p>
+                              <p><i class="fa fa-envelope-o w3-text-teal w3-xlarge"></i>&nbsp;&nbsp;Email: query.xyz@gmail.com</p>
+                        </div>
+                        </div>
+                        <div class="col-md-8">
+                          <div class="row">
+                            <div class="col-sm-6 form-group">
+                              <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+                            </div>
+                            <div class="col-sm-6 form-group">
+                              <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+                            </div>
+                          </div>
+                          <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea>
+                          <br />
+                          <div class="row">
+                            <div class="col-md-12">
+                                <p>
+                                    <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+                                      <i class="fa fa-paper-plane"></i> SEND MESSAGE
+                                    </button>
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Add Google Maps -->
+                     <h3 class="text-center ">Map</h3>
+                     <center><hr class="my-4 "></center>
+                     <div id="map "><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d242118.14199817317!2d73.7228792296325!3d18.524564858515458!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bf2e67461101%3A0x828d43bf9d9ee343!2sPune%2C+Maharashtra!5e0!3m2!1sen!2sin!4v1522878678956 " width="100% " height="330px " frameborder="0 " style="border:0 " allowfullscreen></iframe></div>
+                     </div>
+            <!-- Footer -->
+            <footer class="w3-container w3-black">
+              <div class="col-md-12">
+                  <div class="col-md-8">
+                      <p style="padding-top: 16px!important;">@2017 All right reserved. Design By Abhilash</p>
+                  </div>
+                  <div class="col-md-4 w3-padding-16">
+                    <a href="#!"><i class="fa fa-facebook-official  w3-xlarge w3-hover-opacity"></i></a>
+                    <a href="#!"><i class="fa fa-instagram  w3-xlarge w3-hover-opacity"></i></a>
+                    <a href="#!"><i class="fa fa-twitter  w3-xlarge w3-hover-opacity"></i></a>
+                    <a href="#!"><i class="fa fa-linkedin  w3-xlarge w3-hover-opacity"></i></a>
+                  </div>
+                </div>
+            </footer>
+        </form>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+        <script>baguetteBox.run('.tz-gallery');</script>
+    </body>
+    </html>
